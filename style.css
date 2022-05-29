@@ -7,6 +7,21 @@
     background-color: rgb(116, 116, 116);
 }
 
-#myCanvas {
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    margin: 0 10px;
+}
+
+#carCanvas {
     background-color: rgb(194, 194, 194);
+}
+
+#networkCanvas {
+    background-color: #000;
 }
